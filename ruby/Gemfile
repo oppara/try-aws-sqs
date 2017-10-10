@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+
+# Added at 2017-10-11 00:43:35 +0900 by oppara:
+gem "dotenv", "~> 2.2"
+
+# Added at 2017-10-11 00:51:33 +0900 by oppara:
+gem "aws-sdk", "~> 3.0"
