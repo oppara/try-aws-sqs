@@ -1,19 +1,31 @@
 # shell
 
-アクセスキー、シークレットキーの設定
+
+## 前準備
+
+jqをインストールしとく
 
 ```
-$ cp .env.sample .env
-$ vi env
+% brew install jq
 ```
+
+アクセスキー、シークレットキー等の設定
+
+```
+% cp .env.sample .env
+% vi env
+```
+
+## 実行
 
 送信処理
 
 ```
-$ ./send.php
+% ./send.php
 ```
 
 受信 & 削除処理
+
 ```
-$ ./recv.php
+% ./recv.php
 ```
